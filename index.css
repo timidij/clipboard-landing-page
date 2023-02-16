@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+p{
+    color: hsl(201, 11%, 66%);
+}
+
+
+body{
+ 
+    color: hsl(210, 10%, 33%);
+    font-size: 18px;
+    
+}
+header{
+    width: 100%;
+    background-image: url('./images/bg-header-desktop.png');
+}
+.logo{
+    text-align: center;
+    padding-top: 100px;
+}
+.upper, .track, .access, .super, .last{
+    text-align: center;
+    margin-top: 50px;
+    line-height: 2.5rem;
+}
+.upper p{
+    width: 50vw;
+    text-align: center;
+    justify-self: center;
+    margin: auto;
+}
+.ios{
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+    margin-right: 40px; 
+}
+.mac{
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+}
+.but{
+    display: flex;
+    text-align: center;
+    /* width: 100%; */
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+
+
+}
+.track p{
+    width: 60vw;
+    text-align: center;
+    justify-self: center;
+    margin: auto;
+}
+button{
+    margin-top: 40px;
+}
+.search{
+    display: flex;
+    margin-top: 40px;
+}
+.desktop{
+    
+    margin-left:-30px;
+    /* width: 40px; */
+}
+.desktop img{
+    width: 60vw;
+}
+.next{
+    margin-left: 5%;
+}
+.sync{
+    width: 30vw;
+    margin: 6% 0px;
+}
+.access img{
+    width: 70%;
+    margin: auto;
+}
+.access p{
+    margin-bottom: 40px;
+}
+.features{
+    display: flex;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+
+
+}
+.company{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    justify-self: center;
+    justify-items: space-evenly;
+}
+.company img{
+    margin-right: 9%;
+    /* width: %; */
+}
+.company div{
+    margin-right: 10%;
+}
+.set{
+    width: 60vw;
+    display: flex;
+
+}
+.track{
+    margin-top: 150px;
+}
+footer{
+    /* margin: auto; */
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    color: hsl(210, 10%, 33%);
+    
+    background-color:hsl(213, 36%, 95%);
+    /* background-color: hsl(201, 11%, 66%) ;
+    color: hsl(210, 10%, 33%); */
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    margin: auto;
+}
+.social{
+    margin-top: 60px;
+    width: 20%;
+    margin-left: 20%;
+}
+.social a{
+    margin-right: 10%;
+}
+.f_logo{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+a{
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);
+}
+
+@media screen and (max-width:490px ){
+    body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* margin: 90px; */
+    }
+    .desktop{
+        /* width: 90vw; */
+        margin: auto;
+        text-align: center;
+        padding: auto;
+        /* align-items: center; */
+        /* margin-left: 5%; */
+        /* margin-right: 5%; */
+        
+        text-align: center;
+    }
+    .desktop img{
+        width: 80vw;
+        align-items: center;
+        align-self: center;
+    }
+    .search{
+        /* color: blue; */
+        flex-direction: column;
+        width: 90vw;
+        
+    }
+    .but{
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        /* align-items: center; */
+        margin: auto;
+        width: 90%;
+
+    }
+    .ios{
+        margin-right: 0px;
+        width: 90%;
+
+    }
+    .mac{
+        width: 90%;  
+    }
+    
+    .next{
+        /* display: flex; */
+        /* flex-direction: column; */
+        width: 70vw;
+    }
+    .sync{
+        width: 80vw;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .features{
+        flex-direction: column;
+    }
+    .plain{
+        margin-top: 50px;
+    }
+    .company{
+        flex-direction: column;
+        width: 90vw;
+        text-align: center;
+    }
+    .company img{
+        margin-right: 9%;
+        /* width: 70%; */
+    }
+    .company div{
+        margin: 40px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .set{
+        flex-direction: column;
+        width: 90vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .faq{
+        width: 100%;
+        
+    }
+    .faq a{
+        margin-top: 40px;
+        /* text-align: center; */
+     
+    }
+    .social{
+        width: 90%;
+        text-align: center;
+        margin: 0px;
+        padding-top: 60px;
+       
+    }
+    .social a{
+        margin-right: 5%;
+    }
+ 
+    .f_logo{
+       width: 25%;
+    }
+    
+
+}
